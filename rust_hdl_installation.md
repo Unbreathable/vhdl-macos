@@ -12,8 +12,14 @@ First you have to follow the official [Rust installation guide](https://www.rust
 
 ### 2. Installing vhdl_ls using Rust
 
-This isn't actually complicated, just run the command below in a Terminal after you've successfully installed Rust.
+This isn't actually complicated, just run `cargo install vhdl_ls` in a Terminal after you've successfully installed Rust.
 
-```sh
-cargo install vhdl_ls
-```
+### 3. Getting the default VHDL libraries imported
+
+`vhdl_ls` doesn't just know which libraries you want to use, for this reason you have to download the entire rust_hdl repository from here: https://github.com/VHDL-LS/rust_hdl/archive/refs/heads/master.zip. Then copy the `vhdl_libraries` folder into your `/usr/local/lib/rust_hdl/vhdl_libraries` folder.
+
+### 4. Install the VSCode extension
+
+Download the VHDL LS extension from the VSCode extension marketplace (https://marketplace.visualstudio.com/items?itemName=hbohlin.vhdl-ls). Then it might still show you an error that you need to create a `vhdl_ls.toml` in the folder you've opened with VSCode, but that already means that everything is working.
+
+That's the end of this guide and I hope it helped. Other extensions I recommend are: [Modern VHDL](https://marketplace.visualstudio.com/items?itemName=rjyoung.vscode-modern-vhdl-support) for library auto completion and [VHDL Formatter](https://marketplace.visualstudio.com/items?itemName=Vinrobot.vhdl-formatter) for making your code look nice.
