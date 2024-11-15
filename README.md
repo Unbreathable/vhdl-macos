@@ -14,7 +14,7 @@ The LLVM version is utterly broken and doesn't work, so I recommend just stickin
 
 ## 2. Getting a good editing experience with rust_hdl
 
-For me VHDL felt really weird in the beginning because there was no syntax checking and stuff. That's why I recommend installing [rust_hdl](https://github.com/VHDL-LS/rust_hdl). I'm a VSCode user so I'm going to teach you how to get set up with that, but you can get it for emacs and Neovim, too. There are guides in the GitHub repository linked above for that. You can find that guide here: (link to current repository).
+For me VHDL felt really weird in the beginning because there was no syntax checking and stuff. That's why I recommend installing [rust_hdl](https://github.com/VHDL-LS/rust_hdl). I'm a VSCode user so I'm going to teach you how to get set up with that, but you can get it for emacs and Neovim, too. There are guides in the GitHub repository linked above for that. You can find that guide [here](https://github.com/Unbreathable/vhdl-macos/tree/main/rust_hdl_installation.md).
 
 ## 3. Getting timing analytics with GTKWave
 
