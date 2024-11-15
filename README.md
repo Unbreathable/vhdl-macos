@@ -18,4 +18,4 @@ For me VHDL felt really weird in the beginning because there was no syntax check
 
 ## 3. Getting timing analytics with GTKWave
 
-GTKWave is a tool for debugging VHDL using timing analytics of your code. It can be really useful and is required here at my university. Unfortunately, the [official repository](https://github.com/gtkwave/gtkwave) has outdated guides on how to build the latest version from source. So I've made a script called `gtk-wave-builder.sh`. It installs all the dependencies and installs GTKWave directly into your path. So all you have to do to run it is type `gtkwave` in the Terminal.
+GTKWave is a tool for debugging VHDL using timing analytics of your code. It can be really useful and is required here at my university. Unfortunately, the [official repository](https://github.com/gtkwave/gtkwave) has outdated guides on how to build the latest version from source. So I've made a script called `gtk-wave-builder.sh`. It installs all the dependencies and installs GTKWave directly into your path. You can find it right here in this repository. So all you have to do is run it and then type `gtkwave` in the Terminal to open GTKWave.
