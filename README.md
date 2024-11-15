@@ -2,6 +2,8 @@
 
 I've recently had quite a lot of issues with getting VHDL set up, so this right here is a comprehensive guide on how to do it properly and what resources to use.
 
+Also, in case you have suggestions for what to add here or any information is inaccurate, feel free to file a PR. I don't want to maintain this, but if I get a notification for a pull request, I'll review it and merge it if it looks good.
+
 ## 1. Installing the GHDL compiler
 
 The compiler itself can already be quite difficult to get installed, for that reason, I recommend this guide: https://gist.github.com/etiennecollin/2fdf65a4391dfda6e6ba89789e7da0a7.
